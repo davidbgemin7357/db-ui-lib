@@ -11,7 +11,7 @@ Librería de componentes UI para **Angular 21**, con componentes standalone y es
 ## Instalación
 
 ```bash
-npm install db-ui-kit
+npm install @davidbgemin7357/db-ui-kit
 ```
 
 Dependencias peer (si tu proyecto no las tiene ya):
@@ -28,7 +28,7 @@ Los componentes usan clases de Tailwind. Indica a Tailwind que escanee el paquet
 
 ```css
 @import "tailwindcss";
-@source "../node_modules/db-ui-kit";
+@source "../node_modules/@davidbgemin7357/db-ui-kit";
 ```
 
 ### 2. Tema
@@ -65,7 +65,7 @@ html {
 
 ```ts
 import { Component } from '@angular/core';
-import { DbButtonComponent } from 'db-ui-kit';
+import { DbButtonComponent } from '@davidbgemin7357/db-ui-kit';
 
 @Component({
   selector: 'app-example',
