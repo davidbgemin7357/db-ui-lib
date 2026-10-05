@@ -5,7 +5,7 @@ Repositorio de desarrollo de **[db-ui-kit](projects/db-ui-kit/README.md)**, una 
 Las aplicaciones la consumen con:
 
 ```bash
-npm install @davidbgemin7357/db-ui-kit
+npm install db-ui-kit-angular
 ```
 
 La guía de instalación y configuración para las apps consumidoras está en [projects/db-ui-kit/README.md](projects/db-ui-kit/README.md). Ese archivo es también el README que se publica en npm.
@@ -51,10 +51,10 @@ npm install
 # En db-ui-lib
 npm run build
 cd dist/db-ui-kit
-npm pack            # genera davidbgemin7357-db-ui-kit-<versión>.tgz
+npm pack            # genera db-ui-kit-angular-<versión>.tgz
 
 # En la app consumidora
-npm install ../db-ui-lib/dist/db-ui-kit/davidbgemin7357-db-ui-kit-<versión>.tgz
+npm install ../db-ui-lib/dist/db-ui-kit/db-ui-kit-angular-<versión>.tgz
 ```
 
 ## Publicar una nueva versión en npm
@@ -65,7 +65,7 @@ npm install ../db-ui-lib/dist/db-ui-kit/davidbgemin7357-db-ui-kit-<versión>.tgz
    ```bash
    npm run publish:lib
    ```
-4. En las apps consumidoras: `npm install @davidbgemin7357/db-ui-kit@latest`
+4. En las apps consumidoras: `npm install db-ui-kit-angular@latest`
 
 ## Estructura
 
