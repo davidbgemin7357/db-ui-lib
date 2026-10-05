@@ -1,0 +1,30 @@
+{
+  "name": "db-ui-kit",
+  "version": "0.0.1",
+  "description": "Librería de componentes UI para Angular 21 construida con Tailwind CSS 4.",
+  "keywords": [
+    "angular",
+    "components",
+    "ui-kit",
+    "tailwindcss",
+    "standalone"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<usuario>/db-ui-lib.git"
+  },
+  "homepage": "https://github.com/<usuario>/db-ui-lib#readme",
+  "peerDependencies": {
+    "@angular/common": "^21.2.0",
+    "@angular/core": "^21.2.0",
+    "@angular/forms": "^21.2.0",
+    "@angular/cdk": "^21.2.0",
+    "flatpickr": "^4.6.13",
+    "quill": "^2.0.2"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

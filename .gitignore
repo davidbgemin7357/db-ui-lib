@@ -1,0 +1,19 @@
+# Dependencias
+/node_modules
+
+# Compilación
+/dist
+/out-tsc
+/.angular
+
+# IDEs y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+*.log
+*.tgz
