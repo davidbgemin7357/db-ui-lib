@@ -3,5 +3,8 @@
   "dest": "../../dist/db-ui-kit",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": [
+    "LICENSE"
+  ]
 }
